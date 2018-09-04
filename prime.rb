@@ -1,10 +1,14 @@
 # Add  code here!
 def prime?(num)
   return false if num < 2
-    (2..num - 1).each do |x|
-        if (num % x) == 0
-            return false
-        end
-    end
-    true
+    
 end
+
+
+# return false if integer < 2
+#     (2..integer - 1).each do |x|
+#         if (integer % x) == 0
+#             return false
+#         end
+#     end
+#     true
